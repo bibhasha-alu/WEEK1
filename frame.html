@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frameset Layout</title>
+</head>
+
+<frameset cols="25%, 75%">
+    <frameset rows="100, *">
+        <frame name="logo" src="clickable logo.html" noresize>
+
+        <frame name="navigation" src="navigation menu.html">
+    </frameset>
+
+    <frameset rows="33%, 33%, 34%">
+        <frame name="ordered_list" src="ordered list.html">
+
+        <frame name="unordered_list" src="unordered list.html">
+
+        <frame name="nested_list" src="nested list.html">
+    </frameset>
+
+    <noframes>
+        <body>
+            <p>Your browser does not support frames. Please use a modern browser.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>
